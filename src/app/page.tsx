@@ -45,7 +45,7 @@ const HeroSection = () => {
                                 wrapper="span"
                                 speed={50}
                                 repeat={Infinity}
-                                cursor="false"
+                                cursor={false}
                                 className="text-secondary"
                             />
                         </h1>
