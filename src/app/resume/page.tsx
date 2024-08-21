@@ -13,7 +13,8 @@ import {
     SiRedux,
     SiGit,
     SiExpress,
-    SiGithub
+    SiGithub,
+    SiVercel,
 } from 'react-icons/si';
 import {
     Tabs,
@@ -86,7 +87,7 @@ const experience = {
 
 const education = {
     title: 'My Education',
-    description: 'My academic experiences, which have laid the groundwork for my career, are highlighted in this section.', 
+    description: 'My academic experiences, which have laid the groundwork for my career, are highlighted in this section.',
     items: [
         {
             institution: 'K.L.N College of Information Technology',
@@ -102,7 +103,7 @@ const education = {
 const skills = {
     title: 'Skills',
     description: 'This list reflects my current expertise, but I’m always expanding my skill set. Currently expanding skillset to transition into a Full Stack Developer role, actively learning backend technologies and frameworks to complement existing expertise in front end development. Check back for updates.',
-      skillList: [
+    skillList: [
         {
             icon: <FaHtml5 />,
             name: 'html 5',
@@ -141,11 +142,15 @@ const skills = {
         },
         {
             icon: <SiGit />,
-            name: 'react',
+            name: 'git',
         },
         {
             icon: <SiGithub />,
-            name: 'node js',
+            name: 'github',
+        },
+        {
+            icon: <SiVercel />,
+            name: 'vercel',
         },
     ]
 }
@@ -241,7 +246,7 @@ const ResumePage = () => {
                             <p className='max-w-[600px] text-[#ADB7BE] mx-auto xl:mx-0'>{about.description}</p>
                             <ul className='grid grid-cols-1 xl:grid-cols-2 gap-y-6 max-w-[620px] mx-auto xl:mx-0'>
                                 {about.info.map((item, index) => {
-                                    return(
+                                    return (
                                         <li key={index} className='flex items-center justify-center xl:justify-start gap-4'>
                                             <span className='text-[#ADB7BE]'>{item.fieldName}</span>
                                             <span className='text-xl'>{item.fieldValue}</span>
