@@ -10,7 +10,7 @@ const links = [
     },
     {
         name: 'Who I Am',
-        path: '/about'
+        path: '/resume'
     },
 ]
 
