@@ -54,7 +54,7 @@ const HeroSection = () => {
                         </p>
                         <div className='flex flex-col xl:flex-row items-center gap-8'>
                             <Button variant={'outline'} size={'lg'} >
-                                <a href='./Preethi_CV.pdf' target='_blank' rel='norefferer noopener' className='uppercase flex items-center gap-2'>
+                                <a href='./C_Preethi_CV.pdf' target='_blank' rel='norefferer noopener' className='uppercase flex items-center gap-2'>
                                     <span>Get My CV</span>
                                     <FiDownload className='text-xl' />
                                 </a>
