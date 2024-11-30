@@ -16,7 +16,7 @@ const projects = [
         category: 'Web',
         title: 'ChatMate',
         description: 'Developed an AI-powered chatbot application with GPT API integration, delivering intelligent and personalized conversations, real-time support, and enhanced user engagement through natural language understanding.',
-        image: '/images/chatmate.png',
+        image: './images/chatmate.png',
         github: 'https://github.com/PreethiChandran/chatmate-api',
         stack: [{ name: 'Tailwind CSS' }, { name: 'Typescript' }, { name: 'Next.Js' }],
     },
@@ -25,7 +25,7 @@ const projects = [
         category: 'Web',
         title: 'Farina',
         description: 'Designed a vibrant sweets website featuring an enticing display of confectionery products, easy navigation, and a seamless shopping experience, all crafted to delight and engage users.',
-        image: '/images/farina.png',
+        image: './images/farina.png',
         github: 'https://github.com/PreethiChandran/Farina',
         stack: [{ name: 'HTML5' }, { name: 'CSS3' }]
     },
@@ -34,7 +34,7 @@ const projects = [
         category: 'Web',
         title: 'Gusto',
         description: 'Created a restaurant website using HTML and CSS, featuring an elegant design, menu display, reservation form, and contact information, providing a user-friendly and visually appealing online experience.',
-        image: '/images/gusto.png',
+        image: './images/gusto.png',
         github: 'https://github.com/PreethiChandran/Gusto',
         stack: [{ name: 'HTML5' }, { name: 'CSS3' }, { name: 'Javascript' }]
     },
@@ -43,7 +43,7 @@ const projects = [
         category: 'Web',
         title: 'Polo',
         description: 'Built a professional business website using HTML and CSS, showcasing services, team members, and client testimonials, with a clean design and intuitive navigation for an impactful online presence.',
-        image: '/images/polo.png',
+        image: './images/polo.png',
         github: 'https://github.com/PreethiChandran/Polo',
         stack: [{ name: 'HTML5' }, { name: 'CSS3' }, { name: 'Javascript' }]
     },
@@ -52,7 +52,7 @@ const projects = [
         category: 'Web',
         title: 'SEO',
         description: 'Developed an SEO-focused website, featuring optimized content, meta tags, and responsive design to enhance search engine visibility and improve user engagement.',
-        image: '/images/seo.png',
+        image: './images/seo.png',
         github: 'https://github.com/PreethiChandran/seolounge',
         stack: [{ name: 'HTML5' }, { name: 'CSS3' }, { name: 'Javascript' }]
     }, {
@@ -60,7 +60,7 @@ const projects = [
         category: 'Web',
         title: 'Pop Movies',
         description: 'Created a movies website, showcasing a clean, organized list of movie titles with brief details and a search function for easy navigation and an engaging user experience',
-        image: '/images/popmovie.png',
+        image: './images/popmovie.png',
         github: 'https://github.com/PreethiChandran/Pop_movies',
         stack: [{ name: 'HTML5' }, { name: 'CSS3' }, { name: 'Javascript' }]
     },

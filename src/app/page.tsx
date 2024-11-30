@@ -75,7 +75,7 @@ const HeroSection = () => {
                                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: 'easeIn' }, }} className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] absolute mix-blend-lighten">
                                     <Image
                                         className='relative transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-                                        src={"/images/hero-image.png"}
+                                        src={"./images/hero-image.png"}
                                         alt='hero-image'
                                         width={300}
                                         height={300} />
