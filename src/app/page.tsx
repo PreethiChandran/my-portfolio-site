@@ -54,7 +54,7 @@ const HeroSection = () => {
                         </p>
                         <div className='flex flex-col xl:flex-row items-center gap-8'>
                             <Button variant={'outline'} size={'lg'} >
-                                <a href='./CV_Preethi_C.pdf' target='_blank' rel='norefferer noopener' className='uppercase flex items-center gap-2'>
+                                <a href='/CV_Preethi_C.pdf' target='_blank' rel='norefferer noopener' className='uppercase flex items-center gap-2'>
                                     <span>Get My CV</span>
                                     <FiDownload className='text-xl' />
                                 </a>
@@ -73,12 +73,12 @@ const HeroSection = () => {
                         <div className='w-full h-full relative'>
                             <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: 'easeIn' }, }}>
                                 <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1, transition: { delay: 2, duration: 0.4, ease: 'easeIn' }, }} className="rounded-full bg-[#181818] w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] absolute mix-blend-lighten">
-                                    <Image
+                                    <img
                                         className='relative transform -translate-x-1/2 -translate-y-1/2 top-1/2 left-1/2'
-                                        src={"./images/hero-image.png"}
+                                        src='./images/hero-image.png'
                                         alt='hero-image'
                                         width={300}
-                                        height={300} />
+                                        height={300} ></img>
                                 </motion.div>
                                 <motion.svg className="w-[250px] h-[250px] lg:w-[400px] lg:h-[400px] relative" fill="transparent" viewBox="0 0 506 506" xmlns="https://www.w3.org/2000/svg">
                                     <motion.circle
