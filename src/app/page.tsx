@@ -22,6 +22,13 @@ const socials = [
 
 
 const HeroSection = () => {
+
+    const handleDownload = () => {
+        const link = document.createElement('a');
+        link.href = '/Preethi_C_CV.pdf'; // Path to your PDF in the public folder
+        link.download = 'Preethi_C_CV.pdf'; // Suggested file name
+        link.click();
+    };
     return (
 
         <section className='h-full'>
@@ -53,11 +60,11 @@ const HeroSection = () => {
                             Experienced in creating scalable applications and optimizing user experiences across platforms. Committed to excellence and driven by a passion for learning and innovation.
                         </p>
                         <div className='flex flex-col xl:flex-row items-center gap-8'>
-                            <Button variant={'outline'} size={'lg'} >
-                                <a href='/preethi-portfolio/CV_Preethi_C.pdf' target='_blank' rel='norefferer noopener' className='uppercase flex items-center gap-2'>
-                                    <span>Get My CV</span>
-                                    <FiDownload className='text-xl' />
-                                </a>
+                            <Button variant={'outline'} size={'lg'} className='uppercase flex items-center gap-2' onClick={handleDownload} >
+
+                                <span>Get My CV</span>
+                                <FiDownload className='text-xl' />
+
                             </Button>
 
                             <div className={"flex gap-6"}>
