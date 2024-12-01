@@ -25,7 +25,7 @@ const HeroSection = () => {
 
     const handleDownload = () => {
         const link = document.createElement('a');
-        link.href = '/Preethi_C_CV.pdf'; // Path to your PDF in the public folder
+        link.href = '/preethi-portfolio/Preethi_C_CV.pdf'; // Path to your PDF in the public folder
         link.download = 'Preethi_C_CV.pdf'; // Suggested file name
         link.click();
     };
